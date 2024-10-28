@@ -1,7 +1,9 @@
 import { Router } from "express"
-// import { create } from "../controllers/publicacaoController.js"
+import { getAllPublicacao, getOnePublicacao } from "../controllers/publicacaoController.js"
 
 const router = Router();
+router.get("/", getAllPublicacao)
+router.get("/:id", getOnePublicacao) //proteger essa rota
 // router.post('/', create);
 
 export default router;

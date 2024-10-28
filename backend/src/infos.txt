@@ -1,0 +1,17 @@
+RF1 = info empresa (fácil) 
+    => listar dados da empresa, mostrar os likes e deslikes da empresa
+    => rota "getEmpresa"
+RF2 = listar publicações (médio)
+    => listar dados da publicação, mostra os likes, deslikes e comentários da publicação
+    => rota "getAllPublicacao"
+RF3 = login (médio)
+RF4 = logout (fácil)
+RF5 = info usuários (médio)
+RF6 = única publicação (difícil)
+    => listar dados de uma publicação, mostrar os likes, deslikes e comentários da única publicação
+    => rota "getOnePublicacao"
+RF7 = add comentário (fácil)
+RF8 = update comentário (médio)
+RF9 = delete comentário (fácil)
+RF10 = like (médio)
+RF11 = deslike (médio)
