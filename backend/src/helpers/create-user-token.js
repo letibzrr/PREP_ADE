@@ -2,7 +2,8 @@ import jwt from "jsonwebtoken"
 
 const createUserToken = (usuario, request, response) => {
     const token = jwt.sign(
-        {   id: usuario.id,
+        {   // palylod = userinfo
+            id: usuario.id,
             nome: usuario.nome,
             email: usuario.email,
             nickname: usuario.nickname }, //payload = informação do usuário 
